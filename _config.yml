@@ -1,0 +1,66 @@
+# Site
+name: "Joony의 알뜰 블로그"
+title: "Joony의 알뜰 블로그"
+description: "좋은 품질의 물건을 고를 수 있도록 도와드릴게요"
+#assets > images > logo1.png 등 이렇게 사진올리고 파일에 추가한 후에 아래 파일명 변경하면됨
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+#baseurl에는 내 래파지토리 이름만 ex> /JUN
+baseurl: /JUN
+google_analytics: 'G-EF3H9J7J11'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  JUN:
+    name: JUN
+    display_name: JUN    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://dkswns33.github.io/JUN/
+    twitter: https://twitter.com/wowthemesnet
+    description: "고품질의 상품을 찾아 여러분의 만족을 높이고 고민을 줄여 여러분의 시간을 아껴주고 싶은 블로거입니다."
+
+# Plugins 첫번째에 v2를 추가했긴햇는데...뭔지 모르겠네
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 한페이지에 보여주는 몇페이지 몇페이지
+paginate: 12
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
