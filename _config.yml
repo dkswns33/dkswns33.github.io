@@ -6,7 +6,8 @@ description: "좋은 품질의 물건을 고를 수 있도록 도와드릴게요
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 #baseurl에는 내 래파지토리 이름만 ex> /JUN
-baseurl: /JUN
+baseurl: /
+url : "https://dkswns33.github.io/"
 google_analytics: 'G-EF3H9J7J11'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
