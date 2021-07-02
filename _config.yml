@@ -17,8 +17,8 @@ permalink: /:title/
 # Authors
 authors:
   JUN:
-    name: JUN
-    display_name: JUN    
+    name: Joony
+    display_name: Joony
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
