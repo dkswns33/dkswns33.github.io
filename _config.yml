@@ -1,7 +1,7 @@
 # Site
-name: "Joony의 알뜰 블로그"
-title: "Joony의 알뜰 블로그"
-description: "좋은 품질의 물건을 고를 수 있도록 도와드릴게요"
+name: "Joony의 상품 추천 블로그"
+title: "Joony의 상품 추천 블로그"
+description: "빅데이터를 통한 판매율 높은 좋은 상품 추천해드립니다!"
 #assets > images > logo1.png 등 이렇게 사진올리고 파일에 추가한 후에 아래 파일명 변경하면됨
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
